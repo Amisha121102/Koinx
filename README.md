@@ -33,3 +33,21 @@ Please host your code on GitHub.
 3. We care about the usage of version control and the way you structure(and name) your commits!
 
 Once you’re done with the task, please reply with the GitHub and Deployed Link(if done) to the same email in which you received the assignment.
+
+
+**How To Test**
+1. run command-> npm init -y(This command will create a package.json file with default settings.)
+2. Install Required Packages: You'll need several Node.js packages for this project:
+
+express: Web framework for Node.js.
+axios: To make HTTP requests to external APIs.
+mongoose: To interact with MongoDB.
+dotenv: To load environment variables.
+cron: To schedule tasks.
+Install them using:
+
+npm install express axios mongoose dotenv cron
+3. Type command -> node index.js
+
+
+
